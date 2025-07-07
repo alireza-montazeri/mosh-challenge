@@ -1,0 +1,19 @@
+{
+  "name": "mosh_challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix frontend\" \"npm run dev --prefix backend\""
+  },
+  "devDependencies": {
+    "@types/multer": "^2.0.0",
+    "concurrently": "^8.0.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^8.16.1",
+    "zod": "^3.25.74"
+  }
+}
